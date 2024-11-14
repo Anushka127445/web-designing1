@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #ff8800;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    gap: 45px;
+    position: fixed;
+}
+
+nav .logo a {
+    line-height: 65px;
+    margin-left: 200px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: unset;
+    word-spacing: 2px;
+    font-weight: bold;
+
+}
+.menu{
+    box-shadow: inset 0 -2px 0 #fff;
+    color: white;
+}
+nav .menu a {
+    line-height: 65px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: unset;
+    word-spacing: 2px;
+    font-weight: bold;
+    margin-left: 3px;
+    
+
+
+
+}
+
+nav .logo a {
+    background: #e67a00;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+nav .menu a {
+    background: #e67a00;
+    background: none;
+    font-size: 20px;
+}
+
+.banner {
+    background: url(https://bestschool.net.in/templates/purity_iii/images/bg.jpg);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+.banner .c h1 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: unset;
+    color: #fff;
+    text-shadow: 2px 2px #222;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.banner .c h4 {
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px #222;
+    width: auto;
+    margin-bottom: 10px;
+    font-family: unset;
+}
+
+.banner .c input {
+    margin: 0 auto;
+    float: none;
+    z-index: 9999;
+    background: rgba(0, 0, 0, .7) none repeat scroll 0 0;
+    border: medium;
+    height: 38px;
+    font-size: 17px;
+    color: #fff;
+    width: 600px;
+}
+
+.c {
+    padding: 200px;
+}
+
+.banner.c input {
+    width: 600px;
+    height: 38px;
+    background: rgba(0, 0, 0, .7) none repeat scroll 0 0;
+    border: medium;
+    font-size: 17px;
+    padding-left: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px whitesmoke;
+    margin-top: 14px;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+}
+
+.row h1 {
+    text-align: center;
+    margin-top: 60px;
+    color: #444;
+    line-height: 1.15;
+    font-size: 40px;
+    font-family: unset;
+}
+
+.row p {
+    text-align: center;
+    margin-top: 10px;
+    color: #444;
+    line-height: 1.15;
+    font-size: 25px;
+    font-family: unset;
+}
+
+.space {
+    padding: 40px 80px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.space .d .name {
+    text-align: center;
+    line-height: 1.0;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    margin-top: 1px;
+}
+.d {
+    border: 6px solid #ddd;
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-top: -39px;
+    margin: 10px;
+}
+
+.space .d h1{
+    margin-top: -39px;
+    text-align: center;
+    color: #ddd;
+}
+.d img {
+    width: 100%;
+    height: 290px;
+}
+
+.btn button {
+    border-radius: 30px;
+    font-size: 24px;
+    padding: 10px 30px;
+    background-color: #ff8800;
+    margin-left: 650px;
+    color: white;
+    margin-top: 50px;
+
+}
+.btn button:hover{
+    background-color: #e67a00;
+}
+
+.con2 {
+    width: 100%;
+    height: 250px;
+    border-top: 1px solid #eee;
+    padding: 40px 0;
+    font-size: 16px;
+    color: #666;
+    line-height: 2.0;
+    background: #f7f7f7;
+    margin-top: 50px;
+}
+
+.con2 p {
+    text-align: center;
+    font-family: cursive;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background: #f7f7f7;
+    border-top: 1px solid #eee;
+    margin-top: 50px;
+}
+
+footer span {
+    color: #e67a00;
+    margin-left: 150px;
+    line-height: 5.0;
+
+}
+
+footer p {
+    margin-left: 150px ;
+    color: #666;
+}
+
+
